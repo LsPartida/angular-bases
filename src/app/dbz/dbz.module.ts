@@ -3,9 +3,8 @@ import { CommonModule } from '@angular/common';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 
 @NgModule({
-  declarations: [
-    MainPageComponent
-  ],
+  declarations: [MainPageComponent],
   imports: [CommonModule],
+  exports: [MainPageComponent],
 })
 export class DbzModule {}
