@@ -21,7 +21,12 @@
         {{ character.power | number : "3.0" }}
       </strong>
     </div>
-    <button class="btn btn-danger" (click)="onDeleteCharacter(index)">X</button>
+    <button
+      class="btn btn-danger"
+      (click)="onDeleteCharacter(character.id || '')"
+    >
+      X
+    </button>
   </li>
 </ul>
 <ng-template #noValues>
