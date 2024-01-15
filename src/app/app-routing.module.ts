@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CounterComponent } from './counter/components/counter/counter.component';
+import { MainPageComponent } from './dbz/pages/main-page/main-page.component';
 
 const routes: Routes = [
   {
-    path: '/counter',
-    component: CounterComponent,
+    path: '',
+    component: MainPageComponent,
   },
 ];
 
