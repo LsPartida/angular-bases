@@ -1,27 +1,42 @@
-# Bases
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+# Bases de Angular
 
-## Development server
+En este repositorio se encuentra información sobre elementos básicos de Angular y algunos comentarios que pueden ayudar a entenderlo mejor.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## 🛠 Skills
+Javascript, Typescript, HTML, CSS, Angular, Angular CLI
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Temas vistos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Componentes
+- Eventos
+- Referencias locales
+- One-way Data Binding
+- Two-way Data Binding
+- Directivas
+    - ngIf
+    - ngIf ;else
+    - ngFor
+    - ngClass
+- Modulos
+- Pipes
+- Input
+- Output
+- Forms Module
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Corriendo el proyecto
 
-## Running end-to-end tests
+Para correr este proyecto es necesario tener instalado angular cli en caso de no tenerlo instalado, se instala mediante
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+  npm install -g @angular/cli
+```
 
-## Further help
+ Una vez instalado, se puede correr el proyecto con 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+  ng serve
+```
